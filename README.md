@@ -1,5 +1,5 @@
 <img src="/src/assets/LogoIcon.png">
-
+![212284100-561aa473-3905-4a80-b561-0d28506553ee](https://github.com/Mugen-Builders/.github/assets/153661799/7d329749-d5ed-4aa3-a557-08054d7f9c40)
 # PreviewCom
 
 ### 👨‍🎓 Integrantes
@@ -18,8 +18,7 @@ To learn more about the team members, try clicking on their names or photos and 
 
 ## Summary
 
-&nbsp;&nbsp;&nbsp;&nbsp;O Sumário deste projeto oferece uma visão geral abrangente do projeto. Ao clicar em uma seção específica listada abaixo, você será rapidamente direcionado para ela, simplificando a navegação e a busca por informações precisas.
-![212284100-561aa473-3905-4a80-b561-0d28506553ee](https://github.com/Mugen-Builders/.github/assets/153661799/7d329749-d5ed-4aa3-a557-08054d7f9c40)
+&nbsp;&nbsp;&nbsp;&nbsp;The Summary of this project provides a comprehensive overview of the project. By clicking on a specific section listed below, you will be quickly directed to it, simplifying navigation and the search for precise information.
 
 &nbsp;&nbsp;&nbsp;&nbsp;Explore as seções abaixo para acessar diretamente as informações desejadas
 
