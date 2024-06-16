@@ -131,6 +131,8 @@ Our application is not just a tool for predicting commodity prices but a compreh
 
 - NPM (Node Package Manager) - NPM is included with Node.js installation. Click [here](https://docs.npmjs.com/cli/v7/commands/npm-install) for more details.
 
+- Cartesi Aplication - click [here](https://docs.cartesi.io/cartesi-rollups/1.3/development/installation/) for instructions on how to donwnload
+
 
 
 
