@@ -121,7 +121,9 @@ Ao ajudar os agricultores a otimizar suas operações e melhorar a eficiência d
 Our application is not just a tool for predicting commodity prices but a comprehensive solution that provides valuable insights for various stakeholders in the agricultural and economic sectors. By leveraging AI and data analytics, we aim to create a more informed, efficient, and profitable commodity market. This project represents a significant step forward in utilizing technology to enhance decision-making and strategic planning across the industr
 
 
-## Application Operation
+## Setup
+
+- WSL (Windows Subsistem for Linux) - Click [here](https://learn.microsoft.com/en-us/windows/wsl/install) for instructions to download
 
 
 
