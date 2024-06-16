@@ -6,7 +6,8 @@
 
 ### 👨‍🎓 Integrantes
 
-To learn more about the team members, try clicking on their names or photos and visit their LinkedIn profiles
+To learn more about the team members, try clicking on their names or photos and visit their LinkedIn profiles <img src="https://user-images.githubusercontent.com/74038190/235294013-a33e5c43-a01c-43f6-b44d-a406d8b4ab75.gif" width="100">
+
 
 <div align="center">
   <table>
@@ -121,8 +122,8 @@ Ao ajudar os agricultores a otimizar suas operações e melhorar a eficiência d
 Our application is not just a tool for predicting commodity prices but a comprehensive solution that provides valuable insights for various stakeholders in the agricultural and economic sectors. By leveraging AI and data analytics, we aim to create a more informed, efficient, and profitable commodity market. This project represents a significant step forward in utilizing technology to enhance decision-making and strategic planning across the industr
 
 
+## Application Operation
 
-## how we train AI
 
 
 
