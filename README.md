@@ -146,7 +146,7 @@ Our application is not just a tool for predicting commodity prices but a compreh
 
 HORA DO SHOW
 
-![Demo GIF](https://github.com/DavidDeodato/PreviewComProject/public/PreviewComGif.gif)
+![Demo GIF](/public/PreviewComGif.gif)
 
 
 
