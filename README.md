@@ -144,6 +144,7 @@ Our application is not just a tool for predicting commodity prices but a compreh
 
 [![Watch the video](https://img.youtube.com/vi/zYkTOxB3FGk/maxresdefault.jpg)](https://youtu.be/zYkTOxB3FGk)
 
+HORA DO SHOW
 
 ![Demo GIF](https://github.com/DavidDeodato/PreviewComProject/public/PreviewComGif.gif)
 
