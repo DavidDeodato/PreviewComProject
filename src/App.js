@@ -1,8 +1,11 @@
-import logo from '/Users/Inteli/Desktop/previewcom2/src/assets/LogoPreviewCom.png';
+import logo from '/Users/Inteli/Desktop/PreviewComProject/src/assets/LogoPreviewCom.png';
 
 function App() {
   return (
     <div className="App">
+
+     <audio id="myAudio" src="/click-button.mp3"></audio>
+
       <head>
     <title>Commodity Price Predictor</title>
 </head>
@@ -15,10 +18,7 @@ function App() {
     </div>
     <div class="container">
         <div class="title">
-            <h2>Commodity Price Predictor</h2>
-        </div>
-        <div class="tab-container">
-            <div class="tab active" data-tab="predictor">Predictor</div>
+            <h2>Commodity Predictor</h2>
         </div>
         <div id="predictor" class="tab-content active">
             <div class="parameters">
@@ -46,13 +46,9 @@ function App() {
                     <label for="location">Location</label>
                     <i class="fas fa-map-marker-alt icon"></i>
                     <select id="location" name="location">
-                        <option value="north-america">North America</option>
                         <option value="south-america">South America</option>
-                        <option value="europe">Europe</option>
                         <option value="asia">Asia</option>
                         <option value="africa">Africa</option>
-                        <option value="australia">Australia</option>
-                        <option value="antarctica">Antarctica</option>
                     </select>
                 </div>
                 <div class="parameter">
@@ -64,7 +60,11 @@ function App() {
                 </div>
             </div>
             <div class="result">
-                <button onClick={analyzeData}>Analyze</button>
+
+            <button onClick={handleAnalyzeClick}>
+                <i class="fas fa-chart-line"></i> Analyze
+            </button>
+
                 <div class="loading">Analyzing...</div>
                 <div class="indicator up">↑</div>
                 <div class="indicator down">↓</div>
@@ -82,6 +82,16 @@ function App() {
   );
 }
 
+
+          
+
+
+           
+
+            const handleAnalyzeClick = () => {
+                playAudio();
+                analyzeData();
+            };
               const tabs = document.querySelectorAll('.tab');
               const contents = document.querySelectorAll('.tab-content');
 
@@ -94,6 +104,14 @@ function App() {
                       document.getElementById(tab.getAttribute('data-tab')).classList.add('active');
                   });
               });
+
+              
+                const playAudio = () => {
+                    const audio = document.getElementById('myAudio');
+                    audio.play();
+                  };
+
+        
 
         function analyzeData() {
             document.querySelector('.loading').style.display = 'block';
@@ -111,6 +129,11 @@ function App() {
                     document.querySelector('.indicator.down').style.display = 'inline';
                       }
                   }, 2000);
+
+                  const handleAnalyzeClick = () => {
+                    playAudio();
+                    analyzeData();
+                  };
               }
 
              
