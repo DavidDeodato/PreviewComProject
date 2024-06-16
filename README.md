@@ -24,9 +24,13 @@ To learn more about the team members, try clicking on their names or photos and 
 
 &nbsp;&nbsp;&nbsp;&nbsp;Explore as seções abaixo para acessar diretamente as informações desejadas
 
-- [Introduction to the project](#Introduction to the project)
 
 - [Introduction to the project](#Introduction-to-the-project)
+- [Project Description](#Project-Description)
+- [Benefitsn](#Benefits)
+- [General benefits for the general market](#General-benefits-for-the-general-market)
+- [Social and Economic Benefits](#Social-and-Economic-Benefits)
+- [Conclusion](#Conclusion).
 
 
 ## Introduction to the project
@@ -79,7 +83,7 @@ For Policymakers and Researchers
 
 - Research and Development: Researchers can utilize the data and predictions to study market dynamics, agricultural trends, and the impact of climate change on commodity prices.
 
-**Beneficios gerais para o mercado geral**
+**General benefits for the general market**
 
 
 _Estabilização dos Preços_
@@ -97,7 +101,7 @@ _Inovação e Adaptação_
 A adoção de tecnologias de IA para previsão de preços incentivará a inovação no setor agrícola e de commodities, promovendo a adoção de práticas mais avançadas e eficientes.
 
 
-**Benefícios Sociais e Econômicos**
+**Social and Economic Benefits**
 
 
 _Sustentabilidade Econômica_
@@ -113,7 +117,6 @@ Uma melhor gestão de recursos e insumos, possibilitada pelas previsões, contri
 _Melhoria da Segurança Alimentar_
 
 Ao ajudar os agricultores a otimizar suas operações e melhorar a eficiência de produção, a aplicação contribuirá para uma maior disponibilidade de alimentos e uma melhor segurança alimentar.
-
 
 
 
@@ -134,7 +137,7 @@ Our application is not just a tool for predicting commodity prices but a compreh
 - Cartesi Aplication - click [here](https://docs.cartesi.io/cartesi-rollups/1.3/development/installation/) for instructions on how to donwnload
   
 
-**Conclusion**
+**Application demonstration**
 
 [![Watch the video](https://img.youtube.com/vi/zYkTOxB3FGk/maxresdefault.jpg)](https://youtu.be/zYkTOxB3FGk)
 
