@@ -24,7 +24,6 @@ To learn more about the team members, try clicking on their names or photos and 
 
 - [Introduction to the project](#Introduction to the project)
 
-212284100-561aa473-3905-4a80-b561-0d28506553ee
 
 
 
