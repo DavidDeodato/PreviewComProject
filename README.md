@@ -123,7 +123,15 @@ Our application is not just a tool for predicting commodity prices but a compreh
 
 ## Setup
 
-- WSL (Windows Subsistem for Linux) - Click [here](https://learn.microsoft.com/en-us/windows/wsl/install) for instructions to download
+- WSL (Windows Subsistem for Linux) - Click [here](https://example.com/download) for instructions on how to download.
+
+- Ubuntu - click [here](https://apps.microsoft.com/detail/9pdxgncfsczv?rtc=1&hl=pt-br&gl=BR) to download.
+
+- Node.js - click [here](https://learn.microsoft.com/en-us/windows/dev-environment/javascript/nodejs-on-windows) for instructions on how to download
+
+- NPM (Node Package Manager) - NPM is included with Node.js installation. Click [here](https://docs.npmjs.com/cli/v7/commands/npm-install) for more details.
+
+
 
 
 
