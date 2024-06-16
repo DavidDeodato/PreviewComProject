@@ -121,7 +121,7 @@ Ao ajudar os agricultores a otimizar suas operações e melhorar a eficiência d
 Our application is not just a tool for predicting commodity prices but a comprehensive solution that provides valuable insights for various stakeholders in the agricultural and economic sectors. By leveraging AI and data analytics, we aim to create a more informed, efficient, and profitable commodity market. This project represents a significant step forward in utilizing technology to enhance decision-making and strategic planning across the industr
 
 
-## Setup
+## <img src="https://github.com/Mugen-Builders/.github/assets/153661799/91fd1cce-281c-43c6-ad97-cd5fe68c832e" width="30" height="30"> Setup
 
 - WSL (Windows Subsistem for Linux) - Click [here](https://example.com/download) for instructions on how to download.
 
