@@ -4,8 +4,12 @@
 
 # PreviewCom
 
-### 👨‍🎓 Integrantes 
-<img src="https://user-images.githubusercontent.com/74038190/235294012-0a55e343-37ad-4b0f-924f-c8431d9d2483.gif" width="100">
+<table>
+  <tr>
+    <td><h3>👨‍🎓 Integrantes</h3></td>
+    <td><img src="https://user-images.githubusercontent.com/74038190/235294012-0a55e343-37ad-4b0f-924f-c8431d9d2483.gif" width="100"></td>
+  </tr>
+</table>
 
 To learn more about the team members, try clicking on their names or photos and visit their LinkedIn profiles 
 
