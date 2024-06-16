@@ -26,7 +26,7 @@ To learn more about the team members, try clicking on their names or photos and 
 
 - [Introduction to the project](#Introduction to the project)
 
-- [WAD - Web Application Document - Módulo 2 - Inteli](#wad---web-application-document---módulo-2---inteli)
+- [Introduction to the project](#Introduction-to-the-project)
 
 
 ## Introduction to the project
