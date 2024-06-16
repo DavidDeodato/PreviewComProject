@@ -1,13 +1,193 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+     body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #e0f7fa, #e0ffe0);
+            margin: 0;
+            padding: 0;
+            color: #333;
+            overflow: hidden;
+        }
+        .header {
+            background-color: #004d00; 
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .header img {
+            height: 100px;
+            margin-right: 20px;
+        }
+        .container {
+            width: 90%;
+            min-height: 65vh;
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #ffffff;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            border: 5px solid #daa520; 
+            border-radius: 10px; 
+        }
+        .title {
+            color: #004d00; 
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .tab-container {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+        .tab {
+            padding: 10px 20px;
+            cursor: pointer;
+            background-color: #e0f7fa;
+            border: 1px solid #ccc;
+            border-radius: 5px 5px 0 0;
+            margin-right: 5px;
+        }
+        .tab.active {
+            background-color: #004d00;
+            color: #fff;
+        }
+        .tab-content {
+            display: none;
+        }
+        .tab-content.active {
+            display: block;
+        }
+        .parameters, .result {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        .parameter {
+            flex: 1 1 30%;
+            min-width: 200px;
+            margin: 10px;
+            position: relative;
+        }
+        
+        .parameter label {
+            display: block;
+            margin-bottom: 5px;
+            color: #004d00; 
+        }
+        .parameter input, .parameter select {
+            width: calc(100% - 30px);
+            padding: 8px;
+            box-sizing: border-box;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            padding-left: 30px; 
+        }
+        .parameter .icon {
+            position: absolute;
+            top: 65%; 
+            left: 16px;
+            transform: translateY(-50%);
+            font-size: 16px;
+            color: #004d00; 
+        }
+        .result {
+            text-align: center;
+            margin-top: 20px;
+            width: 100%; 
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .loading {
+            display: none;
+            font-size: 20px;
+            margin-bottom: 20px;
+        }
+        .loading::after {
+            content: '';
+            display: inline-block;
+            width: 24px;
+            height: 24px;
+            border: 3px solid #004d00; 
+            border-radius: 50%;
+            border-top-color: transparent;
+            animation: spin 1s linear infinite;
+            margin-left: 10px;
+        }
+        .indicator {
+            display: none;
+            font-size: 40px;
+        }
+        .indicator.up {
+            color: #32cd32; 
+            font-size: 2cm;
+          
+        }
+        .indicator.up::after {
+          content: "PRICE UP";
+          color: rgb(1, 235, 17);
+          font-weight: bold;
+          font-size: 1cm;
+      }
+
+      .indicator.down::after {
+          content: "PRICE DOWN";
+          color: rgb(178, 34, 34);
+          font-weight: bold;
+          font-size: 1cm;
+      }
+
+
+        .indicator.down {
+            color: #b22222; 
+            font-size: 2cm;
+        }
+        button {
+            background-color: #004d00; 
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background-color 0.3s ease;
+        }
+        button:hover {
+            background-color: #006400; 
+        }
+        @keyframes spin {
+            from {
+                transform: rotate(0deg);
+            }
+            to {
+                transform: rotate(360deg);
+            }
+        }
+       
+        @media (max-width: 768px) {
+            .parameter {
+                flex: 1 1 100%;
+            }
+        }
+        .currency-section {
+            text-align: center;
+        }
+        .currency-section h2 {
+            color: #004d00; 
+            margin-bottom: 20px;
+        }
+        .currency-section .parameter {
+            margin: 10px auto;
+        }
+
+        .fa-coins{
+            position: absolute;
+            top: 10%;
+            left: 10px;
+        }
+        .currency-section button {
+            margin-top: 20px;
+        }
+
