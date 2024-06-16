@@ -10,6 +10,7 @@ To learn more about the team members, try clicking on their names or photos and 
 
 <img src="https://user-images.githubusercontent.com/74038190/235294015-47144047-25ab-417c-af1b-6746820a20ff.gif" width="100">
 
+<img src="https://user-images.githubusercontent.com/74038190/235294012-0a55e343-37ad-4b0f-924f-c8431d9d2483.gif" width="100">
 
 <div align="center">
   <table>
