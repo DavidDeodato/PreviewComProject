@@ -1,5 +1,7 @@
 <img src="/src/assets/LogoIcon.png">
+
 ![212284100-561aa473-3905-4a80-b561-0d28506553ee](https://github.com/Mugen-Builders/.github/assets/153661799/7d329749-d5ed-4aa3-a557-08054d7f9c40)
+
 # PreviewCom
 
 ### 👨‍🎓 Integrantes
