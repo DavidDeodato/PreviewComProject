@@ -170,8 +170,8 @@ To run the application in production mode, follow these detailed steps:
 **Step 2: Run the Application**
 
 1 - run 
-```cartesi run
-```
+```cartesi run```
+
 
 - Explanation: This command starts the application server. It initializes all the necessary services and endpoints required for the application to function. Running the application in this mode ensures that it operates in an environment similar to production, allowing for thorough testing and validation.
 
@@ -190,8 +190,8 @@ Use the cd command to navigate to the project repository in the second terminal.
 
 2 - _Send the Generic Command_
 
-```cartesi send generic
-```
+```cartesi send generic```
+
 
 - Explanation: This command is used to interact with the running server by sending data or requests. This is essential for performing operations like querying data or sending inputs.
 
@@ -209,17 +209,19 @@ Use the cd command to navigate to the project repository in the second terminal.
 
 _Example Input Data:_
 
-```temperature: [your chosen temperature]
+````
+temperature: [your chosen temperature]
 region: [your chosen region]
 type of commodity: [your chosen commodity type]
-```
+
+````
 
 _4 - Receive Confirmation_
 
 - After sending the data, you will receive a confirmation message:
 
-```Input sent: 0xe2a2ba347659e53c53f3089ff3268255842c03bafbbf185375f94c7a78f3f98a
-```
+```Input sent: 0xe2a2ba347659e53c53f3089ff3268255842c03bafbbf185375f94c7a78f3f98a```
+
 
 **Step 5: Check the Output**
 
