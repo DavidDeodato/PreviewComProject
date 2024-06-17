@@ -145,13 +145,10 @@ Our application is not just a tool for predicting commodity prices but a compreh
 ## Application demonstration
 
 
-[![Watch the video](https://img.youtube.com/vi/zYkTOxB3FGk/maxresdefault.jpg)](https://youtu.be/zYkTOxB3FGk)
-
-
-Click on this image to be redirected to a YouTube video, where you can see the application in action.
-
-
 ![Demo GIF](/public/PreviewComGif.gif)
+
+Click [here](https://www.youtube.com/watch?v=zYkTOxB3FGk) to watch the video on YouTube in better quality:
+
 
 
 ## How to Run in Production Mode
