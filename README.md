@@ -32,6 +32,8 @@ To learn more about the team members, try clicking on their names or photos and 
 - [Social and Economic Benefits](#Social-and-Economic-Benefits)
 - [Conclusion](#Conclusion).
 - [Application demonstratio](#Application-demonstratio)
+- [How to run in production mode](#How-to-run-in-production-mode)
+
 
 
 ## Introduction to the project
@@ -148,6 +150,111 @@ Our application is not just a tool for predicting commodity prices but a compreh
 HORA DO SHOW
 
 ![Demo GIF](/public/PreviewComGif.gif)
+
+
+## How to Run in Production Mode
+
+To run the application in production mode, follow these detailed steps:
+
+### Step 1: Build the Application
+
+1. **Navigate to the Project Repository**
+   - Open your terminal and navigate to the project repository directory using the `cd` command.
+
+2. **Build the Application**
+   ```bash
+   cartesi build```
+
+- Explanation: This command compiles and prepares the application for deployment. It processes all the necessary files and dependencies to ensure the application is ready to run. This step is crucial as it ensures that the application is optimized and free from any development-specific configurations.
+
+**Step 2: Run the Application**
+
+1 - run 
+```cartesi run
+```
+
+- Explanation: This command starts the application server. It initializes all the necessary services and endpoints required for the application to function. Running the application in this mode ensures that it operates in an environment similar to production, allowing for thorough testing and validation.
+
+
+**Step 3: Open a Second Terminal**
+
+1 - Explanation: You need two separate terminal windows to operate the server and interact with it. The first terminal is dedicated to running the server (cartesi run), while the second terminal will be used to send commands and interact with the server.
+
+
+**Step 4: Send Generic Command**
+
+1 - _Open a New Terminal and Navigate to the Project Repository_
+
+Use the cd command to navigate to the project repository in the second terminal.
+
+
+2 - _Send the Generic Command_
+
+```cartesi send generic
+```
+
+- Explanation: This command is used to interact with the running server by sending data or requests. This is essential for performing operations like querying data or sending inputs.
+
+  3 - _Follow the Prompts_
+
+- Chain: Select Foundry.
+
+- RPC URL: Choose the provided RPC URL option (this URL is specific to the running server).
+
+- Wallet: Select Mnemonic.
+
+- Mnemonic: Follow the prompts to input the mnemonic options.
+
+- Input String: Choose encoding.
+
+_Example Input Data:_
+
+```temperature: [your chosen temperature]
+region: [your chosen region]
+type of commodity: [your chosen commodity type]
+```
+
+_4 - Receive Confirmation_
+
+- After sending the data, you will receive a confirmation message:
+
+```Input sent: 0xe2a2ba347659e53c53f3089ff3268255842c03bafbbf185375f94c7a78f3f98a
+```
+
+**Step 5: Check the Output**
+
+_1 - Return to the First Terminal_
+
+Go back to the first terminal window where the server is running.
+
+_2 - View the Response_
+
+In this terminal, you will see the output of the data you sent. The server processes the input and provides the necessary response or output.
+
+- By following these steps, you can successfully run the application in production mode and interact with it effectively. Make sure to follow each step carefully to ensure proper setup and operation.
+
+```
+Simply copy and paste the above code into your README.md file on GitHub.
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
