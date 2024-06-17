@@ -161,8 +161,9 @@ To run the application in production mode, follow these detailed steps:
    - Open your terminal and navigate to the project repository directory using the `cd` command.
 
 2. **Build the Application**
-   ```bash
-   cartesi build```
+```
+   cartesi build
+```
 
 - Explanation: This command compiles and prepares the application for deployment. It processes all the necessary files and dependencies to ensure the application is ready to run. This step is crucial as it ensures that the application is optimized and free from any development-specific configurations.
 
@@ -191,7 +192,9 @@ Use the cd command to navigate to the project repository in the second terminal.
 
 2 - _Send the Generic Command_
 
-```cartesi send generic```
+```
+cartesi send generic
+```
 
 
 - Explanation: This command is used to interact with the running server by sending data or requests. This is essential for performing operations like querying data or sending inputs.
@@ -221,7 +224,9 @@ _4 - Receive Confirmation_
 
 - After sending the data, you will receive a confirmation message:
 
-````Input sent: 0xe2a2ba347659e53c53f3089ff3268255842c03bafbbf185375f94c7a78f3f98a````
+```
+Input sent: 0xe2a2ba347659e53c53f3089ff3268255842c03bafbbf185375f94c7a78f3f98a
+```
 
 
 **Step 5: Check the Output**
