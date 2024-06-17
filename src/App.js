@@ -14,12 +14,13 @@ function App() {
     setIsLoading(true);
     setPrediction(null);
 
+
     try {
       document.querySelector('.loading').style.display = 'block';
       document.querySelector('.indicator.up').style.display = 'none';
       document.querySelector('.indicator.down').style.display = 'none';
 
-      while (isLoading) {
+      while (setIsLoading === true) {
           document.querySelector('.loading').style.display = 'none';
       }
 
@@ -34,6 +35,19 @@ function App() {
           region: location,
         }),
       });
+
+        <div className="result">
+    <button onClick={analyzeData} disabled={isLoading}>
+    Analyze
+    </button>
+    {isLoading && <div className="loading">Analyzing...</div>}
+    {prediction && (
+    <div className={`indicator ${prediction}`}>
+        {prediction === 'Increase' ? '↑' : '↓'}
+    </div>
+    )}
+    </div>;
+
       const result = await response.json();
       for (let edge of result.data.notices.edges) {
         let payload = edge.node.payload;
@@ -52,6 +66,12 @@ function App() {
       setIsLoading(false);
     }
   };
+
+  const handleAnalyzeClick = () => {
+    analyzeData();
+  };
+
+  
 
   return (
     <div className="App">
@@ -139,12 +159,11 @@ function App() {
       </div>
     </div>
   );
+  
 }
 
-const handleAnalyzeClick = () => {
-  playAudio();
-  analyzeData();
-};
+
+
 const tabs = document.querySelectorAll(".tab");
 const contents = document.querySelectorAll(".tab-content");
 
@@ -160,10 +179,8 @@ tabs.forEach((tab) => {
   });
 });
 
-const playAudio = () => {
-  const audio = document.getElementById("myAudio");
-  audio.play();
-};
+
+
 
 //parte de
 
