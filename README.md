@@ -220,7 +220,7 @@ _4 - Receive Confirmation_
 
 - After sending the data, you will receive a confirmation message:
 
-```Input sent: 0xe2a2ba347659e53c53f3089ff3268255842c03bafbbf185375f94c7a78f3f98a```
+````Input sent: 0xe2a2ba347659e53c53f3089ff3268255842c03bafbbf185375f94c7a78f3f98a````
 
 
 **Step 5: Check the Output**
