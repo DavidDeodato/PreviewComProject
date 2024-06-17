@@ -169,7 +169,9 @@ To run the application in production mode, follow these detailed steps:
 **Step 2: Run the Application**
 
 1 - run 
-```cartesi run```
+```
+cartesi run
+```
 
 
 - Explanation: This command starts the application server. It initializes all the necessary services and endpoints required for the application to function. Running the application in this mode ensures that it operates in an environment similar to production, allowing for thorough testing and validation.
