@@ -165,29 +165,6 @@ const playAudio = () => {
   audio.play();
 };
 
-function analyzeData() {
-  document.querySelector(".loading").style.display = "block";
-  document.querySelector(".indicator.up").style.display = "none";
-  document.querySelector(".indicator.down").style.display = "none";
-
-  setTimeout(() => {
-    document.querySelector(".loading").style.display = "none";
-
-    // Randomly simulate increase or decrease for demonstration
-    let increase = Math.random() > 0.5;
-    if (increase) {
-      document.querySelector(".indicator.up").style.display = "inline";
-    } else {
-      document.querySelector(".indicator.down").style.display = "inline";
-    }
-  }, 2000);
-
-  const handleAnalyzeClick = () => {
-    playAudio();
-    analyzeData();
-  };
-}
-
 //parte de
 
 export default App;
