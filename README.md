@@ -4,7 +4,7 @@
 
 # PreviewCom
 
-  <h3>👨‍🎓 Integrantes</h3>
+  <h3>👨‍🎓 Members</h3>
 
 To learn more about the team members, try clicking on their names or photos and visit their LinkedIn profiles 
 
@@ -89,37 +89,37 @@ For Policymakers and Researchers
 **General benefits for the general market**
 
 
-_Estabilização dos Preços_
+_Price Stabilization_
 
-A maior transparência e previsibilidade nos preços contribuirão para a estabilização do mercado, reduzindo a volatilidade e promovendo um ambiente de negócios mais estável.
-
-
-_Promoção da Competição Justa_
-
-Com acesso a informações precisas e previsões de preços, todos os participantes do mercado terão uma base mais equitativa para competir, promovendo uma concorrência mais justa e saudável.
+Greater transparency and price predictability will contribute to market stabilization, reducing volatility and promoting a more stable business environment.
 
 
-_Inovação e Adaptação_
+_Promotion of Fair Competition_
 
-A adoção de tecnologias de IA para previsão de preços incentivará a inovação no setor agrícola e de commodities, promovendo a adoção de práticas mais avançadas e eficientes.
+With access to accurate information and price forecasts, all market participants will have a more equitable basis for competition, promoting fairer and healthier competition.
+
+
+_Innovation and Adaptation_
+
+The adoption of AI technologies for price forecasting will encourage innovation in the agricultural and commodities sectors, promoting the adoption of more advanced and efficient practices.
 
 
 **Social and Economic Benefits**
 
 
-_Sustentabilidade Econômica_
+_Economic Sustainability_
 
-Ao fornecer previsões precisas, a aplicação ajudará a criar uma base econômica mais sólida para os agricultores e empresas, promovendo a sustentabilidade e o crescimento econômico a longo prazo.
-
-
-_Redução do Desperdício_
-
-Uma melhor gestão de recursos e insumos, possibilitada pelas previsões, contribuirá para a redução do desperdício de produtos agrícolas, promovendo práticas mais sustentáveis.
+By providing accurate forecasts, the application will help create a more solid economic foundation for farmers and businesses, promoting long-term sustainability and economic growth.
 
 
-_Melhoria da Segurança Alimentar_
+_Waste Reduction_
 
-Ao ajudar os agricultores a otimizar suas operações e melhorar a eficiência de produção, a aplicação contribuirá para uma maior disponibilidade de alimentos e uma melhor segurança alimentar.
+Better management of resources and inputs, enabled by forecasts, will contribute to the reduction of agricultural product waste, promoting more sustainable practices.
+
+
+_Improvement of Food Security_
+
+By helping farmers optimize their operations and improve production efficiency, the application will contribute to greater food availability and improved food security.
 
 
 
