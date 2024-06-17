@@ -1,0 +1,33 @@
+# queries.graphql
+query PredictPrice($region: Region!, $temperature: Int!, $humidity: Int!) {
+  predictPrice(region: $region, temperature: $temperature, humidity: $humidity) {
+    id
+    region
+    temperature
+    humidity
+    predictedPrice
+    timestamp
+  }
+}
+
+query PredictionHistory($region: Region, $startDate: String, $endDate: String) {
+  predictionHistory(region: $region, startDate: $startDate, endDate: $endDate) {
+    id
+    region
+    temperature
+    humidity
+    predictedPrice
+    timestamp
+  }
+}
+
+mutation SubmitInput($input: PredictionInput!) {
+  submitInput(input: $input) {
+    id
+    region
+    temperature
+    humidity
+    predictedPrice
+    timestamp
+  }
+}

@@ -1,0 +1,133 @@
+# schema.graphql
+type Query {
+  predictPrice(region: Region!, temperature: Int!, humidity: Int!): PricePrediction!
+  predictionHistory(region: Region, startDate: String, endDate: String): [PricePrediction!]!
+}
+
+type Mutation {
+  submitInput(input: PredictionInput!): PricePrediction!
+}
+
+enum Region {
+  AFRICA
+  ASIA
+  SOUTH_AMERICA
+}
+
+type PricePrediction {
+  id: ID!
+  region: Region!
+  temperature: Int!
+  humidity: Int!
+  predictedPrice: PriceTrend!
+  timestamp: String!
+}
+
+input PredictionInput {
+  region: Region!
+  temperature: Int!
+  humidity: Int!
+}
+
+enum PriceTrend {
+  INCREASE
+  DECREASE
+}
+
+type Input {
+  index: Int!
+  msgSender: String!
+  timestamp: BigInt!
+  blockNumber: BigInt!
+  payload: String!
+  voucher(index: Int!): Voucher!
+  notice(index: Int!): Notice!
+  report(index: Int!): Report!
+  vouchers(first: Int, last: Int, after: String, before: String): VoucherConnection!
+  notices(first: Int, last: Int, after: String, before: String): NoticeConnection!
+  reports(first: Int, last: Int, after: String, before: String): ReportConnection!
+}
+
+type Voucher {
+  index: Int!
+  input: Input!
+  destination: String!
+  payload: String!
+  proof: Proof
+}
+
+type Notice {
+  index: Int!
+  input: Input!
+  payload: String!
+  proof: Proof
+}
+
+type Report {
+  index: Int!
+  input: Input!
+  payload: String!
+}
+
+type Proof {
+  validity: OutputValidityProof!
+  context: String!
+}
+
+type OutputValidityProof {
+  inputIndexWithinEpoch: Int!
+  outputIndexWithinInput: Int!
+  outputHashesRootHash: String!
+  vouchersEpochRootHash: String!
+  noticesEpochRootHash: String!
+  machineStateHash: String!
+  outputHashInOutputHashesSiblings: [String!]!
+  outputHashesInEpochSiblings: [String!]!
+}
+
+type VoucherConnection {
+  totalCount: Int!
+  edges: [VoucherEdge!]!
+  pageInfo: PageInfo!
+}
+
+type NoticeConnection {
+  totalCount: Int!
+  edges: [NoticeEdge!]!
+  pageInfo: PageInfo!
+}
+
+type ReportConnection {
+  totalCount: Int!
+  edges: [ReportEdge!]!
+  pageInfo: PageInfo!
+}
+
+type VoucherEdge {
+  node: Voucher!
+  cursor: String!
+}
+
+type NoticeEdge {
+  node: Notice!
+  cursor: String!
+}
+
+type ReportEdge {
+  node: Report!
+  cursor: String!
+}
+
+type PageInfo {
+  startCursor: String
+  endCursor: String
+  hasNextPage: Boolean!
+  hasPreviousPage: Boolean!
+}
+
+scalar BigInt
+
+schema {
+  query: Query
+  mutation: Mutation
+}
